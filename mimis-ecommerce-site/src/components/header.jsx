@@ -1,13 +1,13 @@
 import React from 'react'
-import { TbPhoneCall } from "react-icons/tb";
-import { IoMailOutline } from "react-icons/io5";
+import { BiPhoneCall } from 'react-icons/bi'
+import { AioutlineMail } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 const header = () => {
   return <>
-  <header className='header-top-strip p-3'>
+  <header className='header-top-strip p-1 shadow-sm'>
     <div className="container-xxl">
-        <div className="row">
+        <div className="row align-items-center">
             <div className="col-6">
                 <p>The trending outfits at 100% off</p>
             </div>
@@ -15,8 +15,8 @@ const header = () => {
                 <a href="tel:+25412345678">Call Us +25412345678</a>
             </div>
             <div>
-            <Link><TbPhoneCall className='fs-3 mx-4' /></Link>
-            <Link><IoMailOutline className='fs-3 mx-4' /></Link>
+            <Link><BiPhoneCall className='fs-3 mx-4'/></Link>
+            <Link><AioutlineMail className='fs-3 mx-4'/></Link>
             </div>
         </div>
     </div>
