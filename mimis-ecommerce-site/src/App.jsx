@@ -3,6 +3,9 @@ import Layout from './components/layout'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
 import Shop from './pages/shop'
+import Blog from './pages/blog'
+import About from './pages/about'
+import Contact from './pages/contact'
 
 function App() {
 

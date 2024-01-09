@@ -21,6 +21,22 @@ const header = () => {
         </div>
     </div>
   </header>
+  <header className='header-upper'>
+    <div className='cointainer-xxl'>
+      <div className='row'>
+        <div className="col-2"></div>
+      </div>
+      <div className="col-5 d-flex align-items-center justify-content-between">
+        <Link to={'/'}>Home</Link>
+        <Link to={'shop'}>Shop</Link>
+        <Link to={'blog'}>Blog</Link>
+        <Link to={'about'}>About</Link>
+        <Link to={'contact'}>Contact</Link>
+      </div>
+
+    </div>
+
+  </header>
   </>;
 }
 
