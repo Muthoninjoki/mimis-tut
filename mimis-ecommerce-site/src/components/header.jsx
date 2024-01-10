@@ -24,7 +24,15 @@ const header = () => {
   <header className='header-upper'>
     <div className='cointainer-xxl'>
       <div className='row'>
-        <div className="col-2"></div>
+        <div className="col-2">
+        </div>
+        <div className="col-3">
+        <div className="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">All</span>
+        <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+        <span className="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+        </div>
       </div>
       <div className="col-5 d-flex align-items-center justify-content-between">
         <Link to={'/'}>Home</Link>
