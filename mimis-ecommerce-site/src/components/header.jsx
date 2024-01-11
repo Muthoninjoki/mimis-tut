@@ -30,7 +30,7 @@ const header = () => {
         <div className="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">All</span>
         <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-        <span className="input-group-text" id="basic-addon2">@example.com</span>
+        <button className="input-group-text" id="basic-addon2">Search</button>
       </div>
         </div>
       </div>
