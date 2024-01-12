@@ -29,7 +29,7 @@ const header = () => {
         <div className="col-3 d-flex align-items-center">
         <div className="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">All</span>
-        <input type="text" className="form-control p-2" placeholder="Search Products" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+        <input type="text" className="form-control p-2" placeholder="Search Items" aria-label="Recipient's username" aria-describedby="basic-addon2" />
         <button className="input-group-text" id="basic-addon2">Search</button>
       </div>
         </div>
