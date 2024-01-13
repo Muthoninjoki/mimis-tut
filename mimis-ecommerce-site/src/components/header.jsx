@@ -4,6 +4,7 @@ import { AioutlineMail } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { RiInboxArchiveFill } from "react-icons/ri";
 import { VscAccount } from "react-icons/vsc";
+import { LuShoppingCart } from "react-icons/lu";
 
 const header = () => {
   return <>
@@ -49,6 +50,9 @@ const header = () => {
         </Link>
         <Link> <VscAccount />
         <span>Account</span>
+        </Link>
+        <Link> <LuShoppingCart />
+        <span>Cart</span>
         </Link>
       </div>
     </div>
