@@ -2,6 +2,7 @@ import React from 'react'
 import { BiPhoneCall } from 'react-icons/bi'
 import { AioutlineMail } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import { RiInboxArchiveFill } from "react-icons/ri";
 
 const header = () => {
   return <>
@@ -24,7 +25,7 @@ const header = () => {
   <header className='header-upper'>
     <div className='cointainer-xxl'>
       <div className='row'>
-        <div className="col-2">
+        <div className="col-2 text-center">
         </div>
         <div className="col-3 d-flex align-items-center">
         <div className="input-group mb-3">
@@ -34,14 +35,16 @@ const header = () => {
       </div>
         </div>
       </div>
-      <div className="col-5 d-flex align-items-center justify-content-between">
+      <div className="col-4 d-flex align-items-center justify-content-between text-center m-auto">
         <Link to={'/'}>Home</Link>
         <Link to={'shop'}>Shop</Link>
         <Link to={'blog'}>Blog</Link>
         <Link to={'about'}>About</Link>
         <Link to={'contact'}>Contact</Link>
       </div>
-
+      <div className="col-3 d-flex align-items-center justify-content-between">
+        <Link> <RiInboxArchiveFill /></Link>
+      </div>
     </div>
 
   </header>

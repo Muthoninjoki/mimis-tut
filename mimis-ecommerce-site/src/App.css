@@ -32,4 +32,8 @@ button {
   background: transparent;
   font-size: 14px;
 }
+
+.input-group input:focus {
+  outline: none;
+}
 /*..*/
