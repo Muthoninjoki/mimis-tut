@@ -1,14 +1,13 @@
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --primary: rgb(212, 110, 127);
+  --light:rgb(243, 222, 226);
+  --dark:rgb(110, 25, 39);
+  --darker:rgb(56, 9, 17);
+  --lighter: rgb(201, 84, 129);
+  --lighter1: rgb(215, 103, 146);
+  --lighter2: rgb(230, 143, 176);
 }
 
 a {
@@ -23,8 +22,8 @@ p {
 button {
   padding: 12px 10px;
   font-size: 14px;
-  background: pink;
-  color: white;
+  background: var(--primary);
+  color: var(--lighter);
 }
 
 /*Header*/
