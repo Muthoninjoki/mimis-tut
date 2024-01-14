@@ -45,13 +45,13 @@ const header = () => {
         <Link to={'contact'}>Contact</Link>
       </div>
       <div className="col-3 d-flex align-items-center justify-content-around">
-        <Link className='mx-2'> <RiInboxArchiveFill />
+        <Link className='d-flex ' > <RiInboxArchiveFill className='fs-3 mx-2' />
         <span>Wishlist</span>
         </Link>
-        <Link> <VscAccount />
+        <Link className='d-flex'> <VscAccount className='fs-3 mx-2'/>
         <span>Account</span>
         </Link>
-        <Link> <LuShoppingCart />
+        <Link className='d-flex'> <LuShoppingCart className='fs-3 mx-2'/>
         <span>Cart</span>
         </Link>
       </div>
