@@ -37,7 +37,7 @@ const header = () => {
       </div>
         </div>
       </div>
-      <div className="col-4 d-flex align-items-center justify-content-between text-center m-auto">
+      <div className="nav-links col-4 d-flex align-items-center justify-content-between text-center m-auto">
         <Link to={'/'}>Home</Link>
         <Link to={'shop'}>Shop</Link>
         <Link to={'blog'}>Blog</Link>

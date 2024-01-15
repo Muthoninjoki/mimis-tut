@@ -35,4 +35,10 @@ button {
 .input-group input:focus {
   outline: none;
 }
+
+.nav-links a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
 /*..*/
