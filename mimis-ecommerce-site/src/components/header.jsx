@@ -8,7 +8,7 @@ import { LuShoppingCart } from "react-icons/lu";
 
 const header = () => {
   return <>
-  <header className='header-top-strip p-1 shadow-sm'>
+  <header className='header-top-strip p-1 px-4 shadow-sm'>
     <div className="container-xxl">
         <div className="row align-items-center">
             <div className="col-6">
@@ -29,7 +29,7 @@ const header = () => {
       <div className='row'>
         <div className="col-2 text-center">
         </div>
-        <div className="col-3 d-flex align-items-center">
+        <div className="col-3 d-flex align-items-center mt-3">
         <div className="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">All</span>
         <input type="text" className="form-control p-2" placeholder="Search Items" aria-label="Recipient's username" aria-describedby="basic-addon2" />
@@ -44,7 +44,7 @@ const header = () => {
         <Link to={'about'}>About</Link>
         <Link to={'contact'}>Contact</Link>
       </div>
-      <div className="col-3 d-flex align-items-center justify-content-around">
+      <div className="nav-links-nav col-3 d-flex align-items-center justify-content-around">
         <Link className='d-flex ' > <RiInboxArchiveFill className='fs-3 mx-2' />
         <span>Wishlist</span>
         </Link>

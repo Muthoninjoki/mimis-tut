@@ -45,4 +45,8 @@ button {
   text-transform: uppercase;
   color: black;
 }
+
+.nav-links-nav {
+  color: var(--lighter2);
+}
 /*..*/
