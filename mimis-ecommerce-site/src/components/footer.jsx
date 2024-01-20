@@ -1,9 +1,13 @@
 import React from 'react'
 
 const footer = () => {
-  return (
-    <div>footer</div>
-  )
+  return <>
+  <footer classname='footer'>
+    <div className="container-xxl">
+      
+    </div>
+  </footer>
+  </>
 }
 
 export default footer
