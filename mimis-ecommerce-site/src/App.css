@@ -46,7 +46,14 @@ button {
   color: black;
 }
 
-.nav-links-nav {
+.nav-links-nav a {
   color: var(--lighter2);
 }
-/*..*/
+
+/*header ends here*/
+/*footer*/
+
+footer {
+  background-color: var(--lighter2);
+}
+/*footer ends here*/
