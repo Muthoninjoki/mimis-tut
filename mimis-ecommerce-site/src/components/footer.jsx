@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { Link } from 'react-router-dom';
-import { BiLogoFacebook } from 'react-icons/bi';
+import { BiLogoFacebook, BsInstagram, BsLinkedin } from 'react-icons/bi';
 
 const footer = () => {
   return <>
@@ -15,9 +15,11 @@ const footer = () => {
             <p className='mb-3'><b>Phone:</b> <a href="tel:+25412345678">Call Us +25412345678</a></p>
             <p className='mb-5'><b>Hours Open</b> We are open from 8:30am - 5:00pm</p>
             <p className='mb-3'><b>Follow Us</b></p>
-            <div className="social-icons justify-content-around">
+            <div className="col-3 social-icons d-flex justify-content-around">
               <Link><AiFillTwitterCircle /></Link>
-
+              <Link><BiLogoFacebook /></Link>
+              <Link><BsInstagram /></Link>
+              <Link><BsLinkedin /></Link>
             </div>
           </div>
         </div>
